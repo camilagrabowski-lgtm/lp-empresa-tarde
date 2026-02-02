@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja de Celulares</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<nav>
+  <a href="#modelo">Modelo</a>
+  <a href="#cor">Cor</a>
+  <a href="#tamanho">Tamanho</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="modelo">
+  <h2>Escolha o modelo</h2>
+
+  <div class="opcoes">
+   
+    <div class="card" onclick="selecionarModelo('Motorola')">
+      <img src="im01.jpg" alt="Motorola">
+      <p>Motorola</p>
+        <p>A marca Motorola é conhecida por 
+        oferecer celulares de bom desempenho
+        e bom custo-benefício. Os modelos
+        da linha Moto G são populares por sua câmera de alta qualidade e bateria
+        duradoura, enquanto a linha Edge oferece
+        telas de alta qualidade e processadores potentes. Os consumidores destacam a
+        interface limpa e a satisfação com o atendimento pós-venda. Além disso, a
+        Motorola é reconhecida por suas funcionalidades
+        inovadoras, como gestos rápidos e inteligência
+        artificial, que tornam a experiência de uso mais prática e divertida.
+      </p>
+    </div>
+
+    <div class="card" onclick="selecionarModelo('iPhone')">
+      <img src="im03.jpg" alt="iPhone">
+      <p>iPhone</p>
+      <p>Aqui estão algumas informações sobre a marca iPhone
+        e por que comprar dele: Ecossistema Integrado: O 
+        iPhone é parte do ecossistema da Apple, 
+        permitindo uma integração perfeita com outros 
+        dispositivos Apple, como MacBook e iPad, 
+        facilitando a sincronização de dados e a 
+        experiência de uso. Atualizações de Software:
+        A Apple é conhecida por fornecer atualizações 
+        de software regulares e de longo prazo, 
+        garantindo que os usuários continuem a 
+        receber novos recursos e correções de segurança
+        por anos após a compra. Segurança e 
+        Privacidade: O iPhone oferece recursos
+        de segurança robustos, como autenticação
+        biométrica e proteção contra intrusões, 
+        garantindo que suas informações
+        pessoais sejam mantidas seguras. 
+        Qualidade de Câmera: A qualidade da câmera
+        do iPhone é superior, com sistemas triplos
+        de 48 MP e outras inovações que atraem criadores
+        de conteúdo e entusiastas de fotografia. 
+        Esses fatores fazem do iPhone uma escolha popular
+        entre os consumidores que buscam 
+        qualidade, desempenho e segurança.
+</p>
+    </div>
+
+    <div class="card" onclick="selecionarModelo('Samsung')">
+      <img src="im02.jpg" alt="Samsung">
+      <p>Samsung</p>
+        <p>A Samsung é uma das marcas mais reconhecidas
+        no mercado de eletrônicos, conhecida por sua
+        inovação, qualidade e desempenho. Aqui estão
+        algumas razões para comprar produtos Samsung:
+        Inovação: A Samsung investe pesadamente em pesquisa
+        e desenvolvimento, criando tecnologias avançadas
+        como a tela Infinity e processadores de alta 
+        performance. 
+        Qualidade: Os produtos da Samsung são projetados
+        para oferecer durabilidade e confiabilidade, com uma
+        atenção aos detalhes. 
+        Sustentabilidade: A Samsung se compromete com
+        a sustentabilidade, implementando iniciativas como reciclagem
+        e uso de energia renovável. 
+        Esses fatores fazem da Samsung uma escolha popular
+        entre os consumidores que buscam qualidade e inovação em seus eletrônicos.
+      </p>
+    </div>
+
+    <div class="card" onclick="selecionarModelo('Xiaomi')">
+      <img src="lp04.jpg" alt="Xiaomi">
+      <p>Xiaomi</p>
+      <p>
+        A Xiaomi é uma marca de eletrônicos chinesa fundada
+        em 2010, conhecida por oferecer celulares acessíveis
+        com bom desempenho. A marca conquistou uma base de
+        fãs no Brasil devido à sua política de preços 
+        competitivos e qualidade, rivalizando com marcas como 
+        Samsung e Motorola. Os celulares Xiaomi são reconhecidos
+        por seu desempenho superior e design moderno, com opções
+        que variam de smartphones básicos a modelos premium.
+        Além disso, a Xiaomi oferece um bom custo-benefício e 
+        uma boa relação de suporte técnico, o que a torna uma 
+        opção popular entre os consumidores. Para mais informações,
+        você pode visitar o site oficial da Xiaomi. 
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="cor">
+  <h2>Escolha a cor</h2>
+
+  <div class="opcoes">
+    <div class="cor rosa" onclick="selecionarCor('Rosa')"></div>
+    <div class="cor verde" onclick="selecionarCor('Verde')"></div>
+    <div class="cor azul" onclick="selecionarCor('Azul')"></div>
+    <div class="cor laranja" onclick="selecionarCor('Amarela')"></div>
+  </div>
+</section>
+
+<section id="tamanho">
+  <h2>Escolha o tamanho</h2>
+
+  <div class="opcoes">
+    <div class="tamanho" onclick="selecionarTamanho('5.4')">5.4"</div>
+    <div class="tamanho" onclick="selecionarTamanho('5.8')">5.8"</div>
+    <div class="tamanho" onclick="selecionarTamanho('6.1')">6.1"</div>
+    <div class="tamanho" onclick="selecionarTamanho('6.3')">6.3"</div>
+    <div class="tamanho" onclick="selecionarTamanho('6.5')">6.5"</div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+
+  <div class="contato-box">
+    <input type="text" id="nome" placeholder="Seu nome">
+    <textarea id="mensagem" placeholder="Mensagem"></textarea>
+
+    <a id="whatsapp" target="_blank">Falar no WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+        <a href="https://www.facebook.com" target="_blank">
+           <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
