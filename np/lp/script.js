@@ -10,7 +10,7 @@ function atualizarMensagem() {
   const texto = encodeURIComponent(`Nome: ${nome}\n${mensagem}`);
 
   document.getElementById('whatsapp').href =
-    `https://wa.me/5541997681240?text=${texto}`; // número da loja
+    `https://wa.me/5541996666666?text=${texto}`; // número da loja
 }
 
 function selecionarModelo(m) {
